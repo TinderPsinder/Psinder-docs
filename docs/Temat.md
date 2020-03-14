@@ -4,8 +4,14 @@
 ## Technologia
 
 ### Backend
+Backend zaimplementowany zostanie przy użyciu Spring Cloud i Spring Boot. Za język programowania posłuży Java.
+
+### Baza danych
+Dla każdego mikroserwisu uruchomiona będzie osobna, dedykowana baza danych PostgreSQL.
 
 #### Mikroserwisy
+Backend podzielony będzie na kilka mikroserwisów pełniących odrębne, ale uzupełniające się funkcje.
+
 
 #### Serwer
 
