@@ -50,7 +50,19 @@ Wybór formy frontendu jako aplikacji mobilnej jest podyktowany zaplanowaną for
     * Fragmenty kodu natywnego integrujące z platformą Android
     
 ### Integracja z systemami zewnętrznymi
+System komunikować się będzie z dwoma zewnętrznymi serwisami - PayU w celu obsługi płatności oraz Google Maps Platform do obsługi geolokacji i nawigacji.
 
 #### PayU
+PayU jest firmą oferującą system do obsługi płatności internetowych dla osób posiadających adres e-mail. Posiada dwie możliwości płacenia - kartą kredytową oraz przelewem bankowym. PayU posiada testowy system do płatności nazywany Sandbox, który posiada wszystkie potrzebne nam funkcjonalności:
+* Apple Pay,
+* BLIK, 
+* Przelew tradycyjny,
+* PayU|Mobile,
+* Wypłaty,
+* Zwroty.
 
-#### Google Maps
+#### Google Maps Platform
+Google Maps Platform jest platformą firmy Google, która pozwala na integrację aplikacji z mapami i usługami lokalizacyjnymi. W aplikacji Psinder użyte zostaną trzy komponenty:
+* Maps,
+* Routes,
+* Places.
