@@ -9,6 +9,9 @@ Backend zaimplementowany zostanie przy użyciu Spring Cloud i Spring Boot. Za j�
 ### Baza danych
 Dla każdego mikroserwisu uruchomiona będzie osobna, dedykowana baza danych PostgreSQL.
 
+### ORM 
+Do realizacji warstwy dostępu do danych posłuży Hibernate. Jest to Javowy framework, ktory pozwala na mapowanie obiektowo-relacyjne.
+
 #### Mikroserwisy
 Backend podzielony będzie na kilka mikroserwisów pełniących odrębne, ale uzupełniające się funkcje.
 
