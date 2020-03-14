@@ -15,6 +15,12 @@ Do realizacji warstwy dostępu do danych posłuży Hibernate. Jest to Javowy fra
 
 #### Mikroserwisy
 Backend podzielony będzie na kilka mikroserwisów pełniących odrębne, ale uzupełniające się funkcje.
+Planowane mikroserwisy:
+* Mikroserwis do osbsługi płatności
+* Mikroserwis do autoryzacji i autentykacji
+* Mikroserwis do obsługi kart
+* Mikroserwis do obsługi użytkowników
+* Mikroserwis do obsługi map
 
 
 #### Serwer
