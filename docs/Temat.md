@@ -2,6 +2,8 @@
 ### Psinder - Tinder dla jamników
 Psinder to aplikacja mobilna bazująca na popularnej koncepcji zapoczątkowanej przez aplikacje Tinder. Grupą docelową aplikacji są ludzie szukających jamników do adopcji, bądź jamniki szukające innych jamników. Aplikacja oparta będzie o zestaw mikroserwisów komunikujących się ze sobą jak i z aplikacją ze pomocą API. Interfejs aplikacji będzie oparty o przesuwane karty. System będzie posiadał konta użytkowników wraz z możliwym do wykupienia statusem premium umożliwiającym przeglądanie jamników bez limitów. Płatności będą realizowane wewnątrz aplikacji.
 
+![](https://i.imgur.com/eCLlyay.png)
+
 ## Technologia
 
 ### Backend
