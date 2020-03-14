@@ -17,14 +17,29 @@ Do realizacji warstwy dostępu do danych posłuży Hibernate. Jest to Javowy fra
 Backend podzielony będzie na kilka mikroserwisów pełniących odrębne, ale uzupełniające się funkcje.
 
 Planowany wstępny podział:
-* Mikroserwis do osbsługi płatności
-* Mikroserwis do autoryzacji i autentykacji
-* Mikroserwis do obsługi kart
-* Mikroserwis do obsługi użytkowników
-* Mikroserwis do obsługi map
-
+* Mikroserwis do osbsługi płatności,
+* Mikroserwis do autoryzacji i autentykacji,
+* Mikroserwis do obsługi kart,
+* Mikroserwis do obsługi użytkowników,
+* Mikroserwis do obsługi map.
 
 #### Serwer
+Aplikacja będzie hostowana na dedykowanym serwerze opartym o system operacyjny Linux o co najmniej wymienionych parametrach:
+* System operacyjny Linux wspierający platformę Docker w wersji 17+,
+* Dwurdzeniowy procesor o architekturze x86_64 i taktowaniu co najmniej 2.0 GHz,
+* 2 GB pamięci operacyjnej RAM,
+* 10 GB wolnego miejsca na dysku,
+  * Preferowany jest dysk SSD.
+
+Aplikacja będzie korzystała z konteneryzacji za pomoca platformy Docker. Każdy mikroserwis będzie skonteneryzowany i niezależny od reszty. Do bazowego obrazu będą zaliczały się następujące komponenty:
+* Baza oparta na systemie Ubuntu Cloud bądź Alpine,
+* Reguły komunikacji ze światem zewnętrznym,
+* System zarządzania bazą danych PostgreSQL,
+* Bazę danych stworzoną z domyślnego schematu,
+* Skompilowany mikroserwis,
+* Serwer Tomcat.
+
+Tak opisane obrazy powstaną dla każdego mikroserwisu. Taki podział umożliwia teoretyczny podział mikroserwisów na różne serwery. W miarę możliwości wdrożony zostanie również system continuous integration and deployment
 
 ### Frontend
 Za aplikację kliencką systemu posłuży aplikacja mobilna na wiodące platformy mobilne. Aplikacja będzie łączyć się z backendem za pomocą REST API. Dzięki wykorzystanej technologii możliwe będzie rozszerzenie aplikacji również na platformę webową.
