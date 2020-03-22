@@ -31,7 +31,7 @@ Każdy z użytkowników posiada ograniczoną liczbę polubień którą może w w
 Premium to ulepszenie konta zwykłego polegające na zniesieniu limitu polubień oraz możliwość zobaczenia profili które dodały polubienia do właściciela konta premium.
 
 ## Procesy biznesowe
-### Użytkownik dopasowują się (match)
+### Użytkownicy dopasowują się (match)
 **Aktorzy:** Dwaj użytkownicy  
 **Opis**: Użytkownik znajduje dopasowanie z drugim użytkownikiem  
 **Warunki początkowe:** Obaj użytkownicy mają założone konto w serwisie. Drugi użytkownik polubił wcześniej profil użytkownika pierwszego. Użytkownicy znajdują się w tej samej lokalizacji.  
