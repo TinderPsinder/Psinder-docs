@@ -31,4 +31,51 @@ Każdy z użytkowników posiada ograniczoną liczbę polubień którą może w w
 Premium to ulepszenie konta zwykłego polegające na zniesieniu limitu polubień oraz możliwość zobaczenia profili które dodały polubienia do właściciela konta premium.
 
 ## Procesy biznesowe
-TODO
+### Użytkownik dopasowują się (match)
+**Aktorzy:** Dwaj użytkownicy  
+**Opis**: Użytkownik znajduje dopasowanie z drugim użytkownikiem  
+**Warunki początkowe:** Obaj użytkownicy mają założone konto w serwisie. Drugi użytkownik polubił wcześniej profil użytkownika pierwszego. Użytkownicy znajdują się w tej samej lokalizacji.  
+**Scenariusz główny:**  
+1. Użytkownik otwiera ekran główny.
+2. Użytkownik natrafia na drugiego użytkownika.
+3. Użytkownik zaznacza polubienie konta drugiego użytkownika
+4. Użytkownik jest dopasowany z drugim użytkownikiem (match)
+
+**Scenariusz alternatywny:** 
+A3. Użytkownik nie zaznacza polubienia drugiego użytkownika
+A4. Użytkownik nie jest dopasowany z drugim użytkownikiem
+
+### Użytkownik wysyła wiadomość do drugiego użytkownika 
+**Aktorzy:** Dwaj użytkownicy  
+**Opis**: Użytkownik przy pomocy czatu wysyła wiadomość do drugiego użytkownika, z którym uzyskał Match.  
+**Warunki początkowe:** Obaj użytkownicy mają założone konto w serwisie. Pierwszy użytkownik polubił wcześniej profil drugiego użytkownika, a drugi pierwszego.  
+**Scenariusz główny:**  
+1. Użytkownik otwiera zakładkę ze swoimi dopasowaniami (matchami)
+2. Użytkownik wybiera drugiego użytkownika na liście dostępnych dopasowań.
+3. Użytkownik wysyła wiadomość.
+
+**Scenariusz alternatywny:**  brak
+
+### Użytkownik kupuje konto premium
+**Aktorzy:** Użytkownik  
+**Opis**: Użytkownik kupuje kupuje konto premium w aplikacji.    
+**Warunki początkowe:** Użytkownik ma założone konto w serwisie.  
+**Scenariusz główny:**  
+1. Użytkownik otwiera zakładkę dotyczącą konta premium
+2. Użytkownik przechodzi do płatności PayU
+3. Użytkownik potwierdza płatność
+4. Użytkownik otrzymuje konto premium.
+
+**Scenariusz alternatywny:**  
+A3. Płatność nie przechodzi  
+A4. Użytkownik widzi komunikat o błędzie
+
+### Administrator blokuje konto krnąbrnego użytkownika
+**Aktorzy:** Użytkownik  
+**Opis**: Administrator usuwa konto krnąbrnego użytkownika oraz blokuje dalsze zakładanie konta  
+**Warunki początkowe:** Użytkownik ma założone konto w serwisie i był krnąbrny  
+**Scenariusz główny:**  
+1. Administrator otwiera panel administratora
+2. Administrator nakłada blokadę na użytkownika
+
+**Scenariusz alternatywny:** brak
