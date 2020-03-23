@@ -70,6 +70,17 @@ A4. Użytkownik nie jest dopasowany z drugim użytkownikiem
 A3. Płatność nie przechodzi  
 A4. Użytkownik widzi komunikat o błędzie
 
+### Użytkownik zgłasza drugiego użytkownika
+**Aktorzy:** Użytkownik  
+**Opis**: Użytkownik zgłasza drugiego użytkownika, po zauważeniu jego niewłaściwego zachowania  
+**Warunki początkowe:** Użytkownik ma założone konto w serwisie. Drugi użytkownik też ma założone konto oraz zachował się w sposób niezgodny z zasadami (np. niewłaciwy wiek).  
+**Scenariusz główny:**  
+1. Użytkownik otwiera profil drugiego użytkownika
+2. Użytkownik klika przycisk zgłoś.
+3. Drugi użytkownik zostaje zgłoszony
+
+**Scenariusz alternatywny:** brak
+
 ### Administrator blokuje konto krnąbrnego użytkownika
 **Aktorzy:** Użytkownik  
 **Opis**: Administrator usuwa konto krnąbrnego użytkownika oraz blokuje dalsze zakładanie konta  
