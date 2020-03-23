@@ -30,6 +30,12 @@ Każdy z użytkowników posiada ograniczoną liczbę polubień którą może w w
 #### Konto premium
 Premium to ulepszenie konta zwykłego polegające na zniesieniu limitu polubień oraz możliwość zobaczenia profili które dodały polubienia do właściciela konta premium.
 
+### Ban
+Ban wiąże się z usunięciem konta użytkownika, wylogowaniem go z aplikacji oraz brakiem możliwości założenia konta na podanego maila w przyszłości.
+
+### Nieodpowiednie zachowanie
+Są to działania, które są niezgodne z regulaminem użytkowania aplikacji. Takie jak np. wrzucanie niecenzuralnych zdjęć, używanie wulgaryzmów czy podszywanie się pod kogoś innego.
+
 ## Procesy biznesowe
 ### Użytkownicy dopasowują się (match)
 **Aktorzy:** Dwaj użytkownicy  
