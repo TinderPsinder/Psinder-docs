@@ -4,7 +4,7 @@ Przykładowy dokument XML:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <gazeta>
-    <artykul data=”2020-03-29”>
+    <artykul data="2020-03-29">
         <tytul>Koronawirus w Polsce</tytul>
         <tresc>Wicepremier Piotr Gliński zapowiada nowe   obostrzenia w walce z SARS-CoV-2</tresc>
         <autor>Jakub Zimny</autor> 
@@ -20,7 +20,7 @@ Do definiowania struktury dokumentów XML służy XML Schema Definition (skrót:
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
     <xs:element name = "gazeta">
-        <xs:complexType name=”artykul”>
+        <xs:complexType name="artykul">
             <xs:attribute name="data" type="xs:date"/>
             <xs:sequence>   
                 <xs:element name="tytul" type="xs:string"/>
