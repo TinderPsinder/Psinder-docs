@@ -6,7 +6,7 @@ Przykładowy dokument XML:
 <gazeta>
     <artykul data="2020-03-29">
         <tytul>Koronawirus w Polsce</tytul>
-        <tresc>Wicepremier Piotr Gliński zapowiada nowe   obostrzenia w walce z SARS-CoV-2</tresc>
+        <tresc>Wicepremier Piotr Gliński zapowiada nowe obostrzenia w walce z SARS-CoV-2</tresc>
         <autor>Jakub Zimny</autor> 
     </artykul> 
 </gazeta>
