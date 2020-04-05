@@ -28,3 +28,7 @@ Do definiowania struktury dokumentów XML służy XML Schema Definition (skrót:
   <xs:element name="password" type="xs:string"/>
 </xs:schema>
 ```
+
+
+Więcej przykładów przesyłanych dokumentów XML oraz opisujących ich XML Schema znajduje się w pliku [DataExchangeFormat.md](../docs/DataExchangeFormat.md).
+
