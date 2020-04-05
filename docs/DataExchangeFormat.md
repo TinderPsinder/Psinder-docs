@@ -1,5 +1,7 @@
 ## Register
+Endpoint reprezentujący realizacje procesu biznesowego "process-create-account". Proces wykonywany jest przez Gościa, którego celem jest założenie konta użytkownika oraz przejście do klasy aktora AKT_JAM.
 ### Request
+Communication: **Client -> API Gateway -> Users service**
 ```
 POST /api/register
 ```
@@ -91,7 +93,9 @@ XML Schema:
 ```
 
 ## Login
+Endpoint reprezentujący realizacje drugiej części procesu biznesowego "process-create-account". Proces wykonywany jest przez Gościa, którego celem jest zalogowanie się oraz przejście do klasy aktora AKT_JAM.
 ### Request
+Communication: **Client -> API Gateway -> Users service**
 ```
 POST /api/login
 ```
@@ -179,7 +183,9 @@ XML Schema:
 ```
 
 ## Report user
+Endpoint reprezentujący realizacje procesu biznesowego "process-report". Proces wykonywany jest przez aktora AKT_JAM, którego celem jest zgłoszenie konta użytkownika łamiącego regulamin serwisu.
 ### Request
+Communication: **Client -> API Gateway -> Users service**
 ```
 POST /api/report
 ```
@@ -217,7 +223,9 @@ XML Schema:
 ```
 
 ## Dogs nearby
+Endpoint reprezentujący część realizacji procesu biznesowego "process-match". Proces wykonywany jest przez aktora AKT_JAM, którego celem jest pobranie pobliskich użytkowników.
 ### Request
+Communication: **(Client -> Geolocation service) -> API Gateway -> Cards service**
 ```
 GET /api/dogs
 ```
@@ -297,7 +305,9 @@ XML Schema:
 ```
 
 ## Like/dislike dog
+Endpoint reprezentujący część realizacji procesu biznesowego "process-match". Proces wykonywany jest przez aktora AKT_JAM, którego celem jest zmiana statusu polubienia innego użytkownika.
 ### Request
+Communication: **Client -> API Gateway -> Cards service**
 ```
 PATCH /api/dogs
 ```
@@ -340,7 +350,9 @@ XML Schema:
 ```
 
 ## Matches
+Endpoint reprezentujący część realizacji procesu biznesowego "process-match". Proces wykonywany jest przez aktora AKT_JAM, którego celem jest sprawdzenie dopasowanych użytkowników.
 ### Request
+Communication: **Client -> API Gateway -> Cards service**
 ```
 GET /api/matches
 ```
