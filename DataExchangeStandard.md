@@ -30,5 +30,5 @@ Do definiowania struktury dokumentów XML służy XML Schema Definition (skrót:
 ```
 
 
-Więcej przykładów przesyłanych dokumentów XML oraz opisujących ich XML Schema znajduje się w pliku [DataExchangeFormat.md](../docs/DataExchangeFormat.md).
+Więcej przykładów przesyłanych dokumentów XML oraz opisujących ich XML Schema znajduje się w pliku [DataExchangeFormat.md](DataExchangeFormat.md).
 
